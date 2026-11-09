@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wesley Tech | Carrinho de compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a class="logo" href="#">Wesley<span>Tech</span></a>
+      <p>Loja de tecnologia</p>
+      <a class="atalho-carrinho" href="#carrinho">Carrinho <span id="contador-carrinho">0</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="introducao">
+      <p class="etiqueta">A MAIOR E MELHOR LOJA!</p>
+      <h1>Produtos de tecnologia</h1>
+      <p>Escolha seus produtos e veja como o carrinho funciona com JavaScript.</p>
+    </section>
+
+    <section>
+      <h2>Produtos</h2>
+      <div id="lista-produtos" class="grade-produtos">
+        <!-- O JavaScript cria os cards nesta área. -->
+      </div>
+    </section>
+
+    <section id="carrinho" class="area-carrinho">
+      <div class="cabecalho-carrinho">
+        <div>
+          <p class="etiqueta">SUA SELEÇÃO</p>
+          <h2>Meu carrinho</h2>
+        </div>
+        <button id="limpar-carrinho" class="botao botao-secundario">Limpar carrinho</button>
+      </div>
+
+      <div id="itens-carrinho">
+        <!-- O JavaScript mostra os itens do carrinho aqui. -->
+      </div>
+
+      <div class="resumo">
+        <div class="linha-resumo">
+          <span>Subtotal</span>
+          <strong id="subtotal">R$ 0,00</strong>
+        </div>
+        <div class="linha-resumo">
+          <span>Frete</span>
+          <span class="frete">Grátis (exemplo)</span>
+        </div>
+        <div class="linha-resumo total">
+          <span>Total</span>
+          <strong id="total">R$ 0,00</strong>
+        </div>
+        <button id="finalizar-compra" class="botao botao-principal botao-finalizar">
+          Finalizar compra
+        </button>
+        <p class="aviso">Demonstração educativa. Nenhum pagamento será realizado.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>ABC Tech — Projeto de estudo de HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
