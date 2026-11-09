@@ -37,13 +37,6 @@ const produtos = [
     descricao: "Microfone profissional de alta qualidade, para cantores e apresentadore.",
     preco: 130.90,
     emoji: "🎤"
-  },
-  {
-    id: 5,
-    nome: "Controle",
-    descricao: "Para jogadores que gostam de um controle confortável e com longa duração.",
-    preco: 130.90,
-    emoji: "🎮"
   }
 
 ];
